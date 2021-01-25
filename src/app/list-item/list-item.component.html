@@ -1,0 +1,23 @@
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+</style>
+
+
+
+<section class="singlePost">
+    
+    <section class="title">
+        <h2 class="title">{{ post.title }}</h2>
+    </section>
+
+    <!-- <section class = "content"> -->
+    <img [src] = "post.image" />
+
+    <ul >
+        <li>Author: {{ post.author }}</li>
+        <li>Up Votes: {{ post.ups }} </li>
+        <li>Awards: {{ post.total_awards_received }}</li>
+        <li><a href="{{post.link}}">View Full Post Here</a></li>
+    </ul>
+        
+</section>

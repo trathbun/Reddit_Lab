@@ -1,0 +1,10 @@
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+</style>
+
+<section>
+    <h1>Just the Awws!</h1>
+</section>
+
+<app-list-item *ngFor="let post of redditAPI.posts" [post]="post"></app-list-item>
+  
